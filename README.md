@@ -83,16 +83,7 @@ retail-sales-analytics-powerbi/
 └── Retail_Sales_Analytics_Dashboard.pbix  # Add your saved Power BI file
 ```
 
-## How to view the report
 
-1. Install **Microsoft Power BI Desktop** on Windows.
-2. Download or clone this repository.
-3. Open `Retail_Sales_Analytics_Dashboard.pbix` in Power BI Desktop after the file has been added to the repository.
-4. If prompted about a missing CSV source, choose **Transform data → Data source settings → Change Source** (or edit the Source step in Power Query), and point it to `data/sales_data.csv` on your computer.
-5. Click **Close & Apply**, then **Refresh** if needed.
-6. Use the Region and Order Date slicers to explore the data.
-
-**Note:** The starter repository does not contain a `.pbix` file. It must be added from your own Power BI Desktop project.
 
 ## Data disclaimer
 
@@ -100,4 +91,4 @@ All customer identifiers, sales representatives, orders, and transactions in the
 
 ## Author
 
-Business Information Systems Graduate | Data Analytics & Business Intelligence Portfolio
+Ahothe Nethathe | Data Analytics & Business Intelligence Portfolio
