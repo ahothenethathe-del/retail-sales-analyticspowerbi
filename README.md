@@ -7,6 +7,7 @@ An interactive **Microsoft Power BI** dashboard built to explore retail sales pe
 After adding your exported screenshot to `screenshots/dashboard-overview.png`, replace this note with:
 
 `![Retail Sales Analytics Dashboard](screenshots/dashboard-overview.png)`
+![Retail Sales Analytics Dashboard](dashboard-overview.png)
 
 ## Project overview
 
