@@ -1,0 +1,17 @@
+﻿Field,Suggested Power BI data type,Description
+OrderID,Text,Unique transaction identifier
+OrderDate,Date,Date the transaction occurred
+CustomerID,Text,Fictional customer identifier
+ProductID,Text,Product code
+ProductName,Text,Name of product
+Category,Text,Product category
+Region,Text,Sales region
+SalesChannel,Text,Sales channel
+SalesRep,Text,Sales representative
+Quantity,Whole number,Units purchased
+UnitPrice,Decimal number,Unit selling price in ZAR
+Discount,Decimal number,Total discount in ZAR
+Revenue,Decimal number,Net revenue after discount in ZAR
+UnitCost,Decimal number,Cost per unit in ZAR
+TotalCost,Decimal number,Total cost in ZAR
+Profit,Decimal number,Revenue less total cost in ZAR

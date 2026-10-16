@@ -1,0 +1,13 @@
+﻿ProductID,ProductName,Category,UnitPrice,UnitCost
+P001,Wireless Mouse,Accessories,299.0,170.0
+P002,USB-C Hub,Accessories,649.0,390.0
+P003,Laptop Stand,Accessories,449.0,260.0
+P004,Keyboard,Accessories,399.0,225.0
+P005,27-inch Monitor,Electronics,3299.0,2450.0
+P006,SSD 1TB,Electronics,1599.0,1120.0
+P007,Headphones,Electronics,899.0,560.0
+P008,Office Chair,Office Furniture,2499.0,1780.0
+P009,Desk Lamp,Office Furniture,349.0,190.0
+P010,Notebook Pack,Stationery,89.0,38.0
+P011,Printer Paper Box,Stationery,599.0,410.0
+P012,Laptop Backpack,Accessories,799.0,470.0

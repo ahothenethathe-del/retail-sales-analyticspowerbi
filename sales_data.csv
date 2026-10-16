@@ -1,0 +1,501 @@
+﻿OrderID,OrderDate,CustomerID,ProductID,ProductName,Category,Region,SalesChannel,SalesRep,Quantity,UnitPrice,Discount,Revenue,UnitCost,TotalCost,Profit
+ORD0228,2025-01-01,CUST043,P007,Headphones,Electronics,Mpumalanga,In-store,Kabelo Dlamini,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0410,2025-01-01,CUST059,P012,Laptop Backpack,Accessories,Limpopo,Phone Order,Lerato Molefe,1,799.0,119.85,679.15,470.0,470.0,209.15
+ORD0477,2025-01-01,CUST050,P012,Laptop Backpack,Accessories,Eastern Cape,In-store,Sipho Nkosi,4,799.0,0.0,3196.0,470.0,1880.0,1316.0
+ORD0436,2025-01-02,CUST031,P001,Wireless Mouse,Accessories,KwaZulu-Natal,Online,Sipho Nkosi,3,299.0,0.0,897.0,170.0,510.0,387.0
+ORD0296,2025-01-05,CUST022,P003,Laptop Stand,Accessories,KwaZulu-Natal,Online,Aisha Jacobs,2,449.0,89.8,808.2,260.0,520.0,288.2
+ORD0444,2025-01-05,CUST055,P012,Laptop Backpack,Accessories,Mpumalanga,Phone Order,Lerato Molefe,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0018,2025-01-06,CUST049,P009,Desk Lamp,Office Furniture,KwaZulu-Natal,Phone Order,Lerato Molefe,1,349.0,34.9,314.1,190.0,190.0,124.1
+ORD0097,2025-01-06,CUST027,P006,SSD 1TB,Electronics,Western Cape,Phone Order,Sipho Nkosi,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0335,2025-01-09,CUST027,P003,Laptop Stand,Accessories,KwaZulu-Natal,In-store,Sipho Nkosi,4,449.0,0.0,1796.0,260.0,1040.0,756.0
+ORD0342,2025-01-09,CUST034,P001,Wireless Mouse,Accessories,Mpumalanga,Online,Kabelo Dlamini,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0472,2025-01-12,CUST008,P002,USB-C Hub,Accessories,Eastern Cape,Online,Thandi Mokoena,2,649.0,0.0,1298.0,390.0,780.0,518.0
+ORD0378,2025-01-13,CUST006,P006,SSD 1TB,Electronics,Gauteng,Phone Order,Sipho Nkosi,1,1599.0,159.9,1439.1,1120.0,1120.0,319.1
+ORD0003,2025-01-14,CUST027,P007,Headphones,Electronics,Limpopo,Online,Kabelo Dlamini,2,899.0,89.9,1708.1,560.0,1120.0,588.1
+ORD0181,2025-01-14,CUST002,P007,Headphones,Electronics,Limpopo,Online,Aisha Jacobs,2,899.0,89.9,1708.1,560.0,1120.0,588.1
+ORD0464,2025-01-14,CUST050,P004,Keyboard,Accessories,KwaZulu-Natal,In-store,Mpho Ndlovu,1,399.0,39.9,359.1,225.0,225.0,134.1
+ORD0125,2025-01-15,CUST011,P012,Laptop Backpack,Accessories,KwaZulu-Natal,Phone Order,Thandi Mokoena,2,799.0,0.0,1598.0,470.0,940.0,658.0
+ORD0261,2025-01-16,CUST020,P006,SSD 1TB,Electronics,Western Cape,In-store,Aisha Jacobs,2,1599.0,0.0,3198.0,1120.0,2240.0,958.0
+ORD0028,2025-01-17,CUST043,P010,Notebook Pack,Stationery,Western Cape,In-store,Kabelo Dlamini,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0112,2025-01-17,CUST030,P003,Laptop Stand,Accessories,Gauteng,Phone Order,Sipho Nkosi,2,449.0,44.9,853.1,260.0,520.0,333.1
+ORD0050,2025-01-19,CUST009,P010,Notebook Pack,Stationery,Gauteng,Online,Lerato Molefe,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0134,2025-01-19,CUST007,P001,Wireless Mouse,Accessories,Western Cape,In-store,Kabelo Dlamini,5,299.0,0.0,1495.0,170.0,850.0,645.0
+ORD0295,2025-01-19,CUST060,P012,Laptop Backpack,Accessories,Mpumalanga,Online,Thandi Mokoena,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0373,2025-01-19,CUST035,P010,Notebook Pack,Stationery,Eastern Cape,Phone Order,Thandi Mokoena,1,89.0,8.9,80.1,38.0,38.0,42.1
+ORD0051,2025-01-21,CUST007,P011,Printer Paper Box,Stationery,KwaZulu-Natal,Phone Order,Mpho Ndlovu,1,599.0,0.0,599.0,410.0,410.0,189.0
+ORD0117,2025-01-21,CUST002,P011,Printer Paper Box,Stationery,Gauteng,In-store,Aisha Jacobs,2,599.0,0.0,1198.0,410.0,820.0,378.0
+ORD0191,2025-01-22,CUST021,P005,27-inch Monitor,Electronics,Eastern Cape,Online,Kabelo Dlamini,1,3299.0,0.0,3299.0,2450.0,2450.0,849.0
+ORD0288,2025-01-22,CUST029,P003,Laptop Stand,Accessories,Mpumalanga,Online,Aisha Jacobs,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0396,2025-01-22,CUST028,P010,Notebook Pack,Stationery,Gauteng,Phone Order,Aisha Jacobs,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0048,2025-01-23,CUST017,P001,Wireless Mouse,Accessories,Limpopo,Phone Order,Mpho Ndlovu,3,299.0,0.0,897.0,170.0,510.0,387.0
+ORD0215,2025-01-23,CUST029,P004,Keyboard,Accessories,Eastern Cape,Online,Aisha Jacobs,2,399.0,0.0,798.0,225.0,450.0,348.0
+ORD0232,2025-01-23,CUST054,P004,Keyboard,Accessories,Mpumalanga,Online,Aisha Jacobs,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0320,2025-01-23,CUST056,P004,Keyboard,Accessories,Gauteng,In-store,Kabelo Dlamini,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0008,2025-01-24,CUST055,P008,Office Chair,Office Furniture,Limpopo,In-store,Mpho Ndlovu,3,2499.0,1124.55,6372.45,1780.0,5340.0,1032.45
+ORD0124,2025-01-27,CUST029,P002,USB-C Hub,Accessories,Mpumalanga,Online,Thandi Mokoena,2,649.0,129.8,1168.2,390.0,780.0,388.2
+ORD0185,2025-01-27,CUST006,P002,USB-C Hub,Accessories,KwaZulu-Natal,Online,Aisha Jacobs,3,649.0,0.0,1947.0,390.0,1170.0,777.0
+ORD0206,2025-01-27,CUST007,P010,Notebook Pack,Stationery,Eastern Cape,Phone Order,Mpho Ndlovu,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0279,2025-01-27,CUST040,P007,Headphones,Electronics,Western Cape,In-store,Aisha Jacobs,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0140,2025-01-29,CUST034,P003,Laptop Stand,Accessories,Western Cape,Phone Order,Aisha Jacobs,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0402,2025-01-31,CUST056,P012,Laptop Backpack,Accessories,Limpopo,In-store,Sipho Nkosi,3,799.0,0.0,2397.0,470.0,1410.0,987.0
+ORD0037,2025-02-01,CUST033,P010,Notebook Pack,Stationery,Eastern Cape,In-store,Thandi Mokoena,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0282,2025-02-01,CUST043,P009,Desk Lamp,Office Furniture,Western Cape,Phone Order,Mpho Ndlovu,2,349.0,0.0,698.0,190.0,380.0,318.0
+ORD0323,2025-02-01,CUST012,P007,Headphones,Electronics,Mpumalanga,Phone Order,Mpho Ndlovu,2,899.0,89.9,1708.1,560.0,1120.0,588.1
+ORD0448,2025-02-01,CUST017,P005,27-inch Monitor,Electronics,KwaZulu-Natal,Online,Aisha Jacobs,5,3299.0,0.0,16495.0,2450.0,12250.0,4245.0
+ORD0455,2025-02-01,CUST053,P010,Notebook Pack,Stationery,Western Cape,Online,Aisha Jacobs,5,89.0,0.0,445.0,38.0,190.0,255.0
+ORD0495,2025-02-01,CUST035,P010,Notebook Pack,Stationery,Mpumalanga,Online,Kabelo Dlamini,3,89.0,0.0,267.0,38.0,114.0,153.0
+ORD0013,2025-02-03,CUST021,P002,USB-C Hub,Accessories,Limpopo,Phone Order,Mpho Ndlovu,4,649.0,259.6,2336.4,390.0,1560.0,776.4
+ORD0171,2025-02-03,CUST046,P001,Wireless Mouse,Accessories,KwaZulu-Natal,Online,Kabelo Dlamini,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0243,2025-02-04,CUST037,P003,Laptop Stand,Accessories,Gauteng,Phone Order,Sipho Nkosi,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0319,2025-02-04,CUST046,P001,Wireless Mouse,Accessories,Gauteng,In-store,Aisha Jacobs,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0085,2025-02-05,CUST016,P010,Notebook Pack,Stationery,Limpopo,In-store,Kabelo Dlamini,2,89.0,8.9,169.1,38.0,76.0,93.1
+ORD0091,2025-02-05,CUST053,P006,SSD 1TB,Electronics,Western Cape,In-store,Mpho Ndlovu,1,1599.0,159.9,1439.1,1120.0,1120.0,319.1
+ORD0129,2025-02-05,CUST060,P003,Laptop Stand,Accessories,Eastern Cape,Online,Thandi Mokoena,3,449.0,0.0,1347.0,260.0,780.0,567.0
+ORD0183,2025-02-05,CUST048,P002,USB-C Hub,Accessories,Eastern Cape,In-store,Mpho Ndlovu,2,649.0,0.0,1298.0,390.0,780.0,518.0
+ORD0440,2025-02-05,CUST020,P011,Printer Paper Box,Stationery,KwaZulu-Natal,In-store,Kabelo Dlamini,3,599.0,89.85,1707.15,410.0,1230.0,477.15
+ORD0248,2025-02-07,CUST006,P005,27-inch Monitor,Electronics,Mpumalanga,Online,Aisha Jacobs,4,3299.0,0.0,13196.0,2450.0,9800.0,3396.0
+ORD0271,2025-02-07,CUST053,P004,Keyboard,Accessories,Eastern Cape,Phone Order,Kabelo Dlamini,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0425,2025-02-07,CUST003,P001,Wireless Mouse,Accessories,Gauteng,Online,Kabelo Dlamini,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0089,2025-02-08,CUST045,P007,Headphones,Electronics,KwaZulu-Natal,Phone Order,Kabelo Dlamini,3,899.0,0.0,2697.0,560.0,1680.0,1017.0
+ORD0239,2025-02-10,CUST046,P004,Keyboard,Accessories,Western Cape,In-store,Aisha Jacobs,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0345,2025-02-10,CUST045,P004,Keyboard,Accessories,Limpopo,Online,Aisha Jacobs,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0076,2025-02-11,CUST046,P002,USB-C Hub,Accessories,Limpopo,In-store,Mpho Ndlovu,1,649.0,32.45,616.55,390.0,390.0,226.55
+ORD0346,2025-02-11,CUST006,P008,Office Chair,Office Furniture,Western Cape,Online,Mpho Ndlovu,3,2499.0,374.85,7122.15,1780.0,5340.0,1782.15
+ORD0220,2025-02-12,CUST010,P010,Notebook Pack,Stationery,Western Cape,In-store,Sipho Nkosi,1,89.0,8.9,80.1,38.0,38.0,42.1
+ORD0204,2025-02-13,CUST029,P006,SSD 1TB,Electronics,Western Cape,Phone Order,Kabelo Dlamini,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0447,2025-02-13,CUST026,P007,Headphones,Electronics,Gauteng,Phone Order,Kabelo Dlamini,2,899.0,0.0,1798.0,560.0,1120.0,678.0
+ORD0494,2025-02-13,CUST049,P009,Desk Lamp,Office Furniture,Eastern Cape,In-store,Kabelo Dlamini,3,349.0,0.0,1047.0,190.0,570.0,477.0
+ORD0252,2025-02-14,CUST031,P001,Wireless Mouse,Accessories,Eastern Cape,Online,Mpho Ndlovu,1,299.0,14.95,284.05,170.0,170.0,114.05
+ORD0122,2025-02-15,CUST026,P004,Keyboard,Accessories,Eastern Cape,In-store,Aisha Jacobs,1,399.0,59.85,339.15,225.0,225.0,114.15
+ORD0150,2025-02-16,CUST013,P011,Printer Paper Box,Stationery,Limpopo,Phone Order,Lerato Molefe,1,599.0,0.0,599.0,410.0,410.0,189.0
+ORD0358,2025-02-16,CUST018,P001,Wireless Mouse,Accessories,Gauteng,In-store,Thandi Mokoena,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0406,2025-02-17,CUST023,P009,Desk Lamp,Office Furniture,Gauteng,Phone Order,Mpho Ndlovu,1,349.0,17.45,331.55,190.0,190.0,141.55
+ORD0446,2025-02-17,CUST027,P001,Wireless Mouse,Accessories,Mpumalanga,Online,Mpho Ndlovu,1,299.0,29.9,269.1,170.0,170.0,99.1
+ORD0030,2025-02-18,CUST030,P001,Wireless Mouse,Accessories,Mpumalanga,In-store,Aisha Jacobs,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0110,2025-02-20,CUST043,P012,Laptop Backpack,Accessories,Gauteng,In-store,Sipho Nkosi,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0376,2025-02-20,CUST038,P003,Laptop Stand,Accessories,Mpumalanga,Phone Order,Sipho Nkosi,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0409,2025-02-20,CUST060,P007,Headphones,Electronics,Limpopo,Online,Mpho Ndlovu,3,899.0,0.0,2697.0,560.0,1680.0,1017.0
+ORD0103,2025-02-21,CUST020,P010,Notebook Pack,Stationery,Gauteng,Phone Order,Kabelo Dlamini,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0419,2025-02-21,CUST023,P002,USB-C Hub,Accessories,Western Cape,Online,Sipho Nkosi,1,649.0,32.45,616.55,390.0,390.0,226.55
+ORD0483,2025-02-21,CUST049,P010,Notebook Pack,Stationery,Mpumalanga,In-store,Sipho Nkosi,3,89.0,0.0,267.0,38.0,114.0,153.0
+ORD0105,2025-02-22,CUST029,P011,Printer Paper Box,Stationery,KwaZulu-Natal,In-store,Thandi Mokoena,2,599.0,0.0,1198.0,410.0,820.0,378.0
+ORD0385,2025-02-22,CUST013,P010,Notebook Pack,Stationery,Western Cape,In-store,Lerato Molefe,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0445,2025-02-23,CUST004,P002,USB-C Hub,Accessories,Limpopo,Phone Order,Lerato Molefe,5,649.0,0.0,3245.0,390.0,1950.0,1295.0
+ORD0170,2025-02-25,CUST006,P006,SSD 1TB,Electronics,KwaZulu-Natal,Phone Order,Sipho Nkosi,4,1599.0,0.0,6396.0,1120.0,4480.0,1916.0
+ORD0290,2025-02-25,CUST043,P007,Headphones,Electronics,Eastern Cape,In-store,Aisha Jacobs,2,899.0,0.0,1798.0,560.0,1120.0,678.0
+ORD0374,2025-02-25,CUST042,P010,Notebook Pack,Stationery,Eastern Cape,In-store,Kabelo Dlamini,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0277,2025-02-26,CUST047,P012,Laptop Backpack,Accessories,Mpumalanga,Phone Order,Thandi Mokoena,2,799.0,79.9,1518.1,470.0,940.0,578.1
+ORD0019,2025-02-27,CUST047,P003,Laptop Stand,Accessories,Mpumalanga,Online,Kabelo Dlamini,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0298,2025-02-27,CUST046,P004,Keyboard,Accessories,Limpopo,In-store,Aisha Jacobs,2,399.0,0.0,798.0,225.0,450.0,348.0
+ORD0318,2025-02-27,CUST060,P001,Wireless Mouse,Accessories,Gauteng,In-store,Sipho Nkosi,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0423,2025-02-27,CUST057,P003,Laptop Stand,Accessories,Gauteng,Online,Lerato Molefe,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0167,2025-02-28,CUST033,P010,Notebook Pack,Stationery,Eastern Cape,In-store,Mpho Ndlovu,1,89.0,4.45,84.55,38.0,38.0,46.55
+ORD0430,2025-03-01,CUST048,P005,27-inch Monitor,Electronics,Mpumalanga,Phone Order,Sipho Nkosi,2,3299.0,0.0,6598.0,2450.0,4900.0,1698.0
+ORD0272,2025-03-02,CUST022,P001,Wireless Mouse,Accessories,Eastern Cape,Online,Sipho Nkosi,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0304,2025-03-02,CUST015,P008,Office Chair,Office Furniture,Limpopo,In-store,Mpho Ndlovu,4,2499.0,0.0,9996.0,1780.0,7120.0,2876.0
+ORD0331,2025-03-02,CUST045,P010,Notebook Pack,Stationery,Eastern Cape,Phone Order,Sipho Nkosi,3,89.0,26.7,240.3,38.0,114.0,126.3
+ORD0090,2025-03-03,CUST035,P010,Notebook Pack,Stationery,Western Cape,Phone Order,Lerato Molefe,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0431,2025-03-03,CUST032,P001,Wireless Mouse,Accessories,KwaZulu-Natal,Phone Order,Kabelo Dlamini,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0226,2025-03-04,CUST030,P001,Wireless Mouse,Accessories,Gauteng,In-store,Mpho Ndlovu,1,299.0,14.95,284.05,170.0,170.0,114.05
+ORD0287,2025-03-04,CUST026,P007,Headphones,Electronics,KwaZulu-Natal,In-store,Lerato Molefe,2,899.0,179.8,1618.2,560.0,1120.0,498.2
+ORD0104,2025-03-06,CUST045,P003,Laptop Stand,Accessories,Limpopo,Phone Order,Mpho Ndlovu,5,449.0,0.0,2245.0,260.0,1300.0,945.0
+ORD0163,2025-03-06,CUST036,P010,Notebook Pack,Stationery,Limpopo,Phone Order,Sipho Nkosi,1,89.0,4.45,84.55,38.0,38.0,46.55
+ORD0024,2025-03-07,CUST034,P008,Office Chair,Office Furniture,Eastern Cape,Online,Sipho Nkosi,4,2499.0,0.0,9996.0,1780.0,7120.0,2876.0
+ORD0209,2025-03-08,CUST025,P007,Headphones,Electronics,Mpumalanga,Online,Sipho Nkosi,4,899.0,0.0,3596.0,560.0,2240.0,1356.0
+ORD0264,2025-03-08,CUST016,P010,Notebook Pack,Stationery,Western Cape,In-store,Lerato Molefe,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0029,2025-03-09,CUST016,P009,Desk Lamp,Office Furniture,Western Cape,Online,Sipho Nkosi,3,349.0,0.0,1047.0,190.0,570.0,477.0
+ORD0041,2025-03-09,CUST049,P009,Desk Lamp,Office Furniture,Gauteng,In-store,Mpho Ndlovu,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0415,2025-03-09,CUST052,P006,SSD 1TB,Electronics,Gauteng,In-store,Lerato Molefe,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0424,2025-03-09,CUST035,P004,Keyboard,Accessories,Mpumalanga,In-store,Mpho Ndlovu,3,399.0,0.0,1197.0,225.0,675.0,522.0
+ORD0072,2025-03-10,CUST039,P010,Notebook Pack,Stationery,KwaZulu-Natal,Online,Kabelo Dlamini,2,89.0,26.7,151.3,38.0,76.0,75.3
+ORD0315,2025-03-10,CUST035,P008,Office Chair,Office Furniture,Western Cape,Phone Order,Sipho Nkosi,1,2499.0,0.0,2499.0,1780.0,1780.0,719.0
+ORD0340,2025-03-12,CUST001,P010,Notebook Pack,Stationery,Limpopo,Phone Order,Mpho Ndlovu,1,89.0,4.45,84.55,38.0,38.0,46.55
+ORD0371,2025-03-13,CUST046,P008,Office Chair,Office Furniture,Western Cape,Online,Thandi Mokoena,1,2499.0,0.0,2499.0,1780.0,1780.0,719.0
+ORD0479,2025-03-14,CUST021,P004,Keyboard,Accessories,Limpopo,Phone Order,Thandi Mokoena,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0417,2025-03-15,CUST011,P001,Wireless Mouse,Accessories,Western Cape,Online,Aisha Jacobs,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0070,2025-03-17,CUST050,P008,Office Chair,Office Furniture,Gauteng,Online,Sipho Nkosi,1,2499.0,124.95,2374.05,1780.0,1780.0,594.05
+ORD0499,2025-03-17,CUST059,P010,Notebook Pack,Stationery,Gauteng,In-store,Mpho Ndlovu,1,89.0,8.9,80.1,38.0,38.0,42.1
+ORD0460,2025-03-18,CUST019,P001,Wireless Mouse,Accessories,Western Cape,Online,Kabelo Dlamini,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0199,2025-03-19,CUST051,P005,27-inch Monitor,Electronics,KwaZulu-Natal,Phone Order,Thandi Mokoena,1,3299.0,0.0,3299.0,2450.0,2450.0,849.0
+ORD0281,2025-03-19,CUST040,P004,Keyboard,Accessories,Western Cape,Phone Order,Aisha Jacobs,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0086,2025-03-20,CUST014,P003,Laptop Stand,Accessories,Western Cape,Phone Order,Lerato Molefe,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0127,2025-03-20,CUST018,P006,SSD 1TB,Electronics,Western Cape,Online,Mpho Ndlovu,2,1599.0,0.0,3198.0,1120.0,2240.0,958.0
+ORD0305,2025-03-20,CUST045,P005,27-inch Monitor,Electronics,Eastern Cape,Online,Kabelo Dlamini,5,3299.0,0.0,16495.0,2450.0,12250.0,4245.0
+ORD0357,2025-03-20,CUST025,P004,Keyboard,Accessories,KwaZulu-Natal,Online,Thandi Mokoena,3,399.0,0.0,1197.0,225.0,675.0,522.0
+ORD0005,2025-03-21,CUST025,P002,USB-C Hub,Accessories,Gauteng,Online,Lerato Molefe,3,649.0,0.0,1947.0,390.0,1170.0,777.0
+ORD0046,2025-03-21,CUST014,P003,Laptop Stand,Accessories,Mpumalanga,Phone Order,Lerato Molefe,2,449.0,44.9,853.1,260.0,520.0,333.1
+ORD0450,2025-03-21,CUST008,P001,Wireless Mouse,Accessories,Eastern Cape,Online,Sipho Nkosi,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0474,2025-03-22,CUST032,P009,Desk Lamp,Office Furniture,Mpumalanga,Online,Sipho Nkosi,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0487,2025-03-22,CUST027,P001,Wireless Mouse,Accessories,Mpumalanga,Phone Order,Aisha Jacobs,1,299.0,44.85,254.15,170.0,170.0,84.15
+ORD0266,2025-03-23,CUST013,P010,Notebook Pack,Stationery,Limpopo,Online,Kabelo Dlamini,4,89.0,17.8,338.2,38.0,152.0,186.2
+ORD0411,2025-03-23,CUST024,P011,Printer Paper Box,Stationery,KwaZulu-Natal,In-store,Lerato Molefe,3,599.0,0.0,1797.0,410.0,1230.0,567.0
+ORD0011,2025-03-25,CUST045,P005,27-inch Monitor,Electronics,Eastern Cape,In-store,Aisha Jacobs,1,3299.0,329.9,2969.1,2450.0,2450.0,519.1
+ORD0214,2025-03-25,CUST058,P002,USB-C Hub,Accessories,Limpopo,Phone Order,Mpho Ndlovu,2,649.0,0.0,1298.0,390.0,780.0,518.0
+ORD0275,2025-03-25,CUST038,P004,Keyboard,Accessories,KwaZulu-Natal,Phone Order,Kabelo Dlamini,2,399.0,79.8,718.2,225.0,450.0,268.2
+ORD0195,2025-03-28,CUST013,P001,Wireless Mouse,Accessories,KwaZulu-Natal,Online,Aisha Jacobs,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0111,2025-03-30,CUST045,P007,Headphones,Electronics,Eastern Cape,Online,Lerato Molefe,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0064,2025-03-31,CUST001,P007,Headphones,Electronics,KwaZulu-Natal,Online,Sipho Nkosi,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0119,2025-03-31,CUST012,P006,SSD 1TB,Electronics,Eastern Cape,Online,Aisha Jacobs,2,1599.0,319.8,2878.2,1120.0,2240.0,638.2
+ORD0071,2025-04-01,CUST036,P010,Notebook Pack,Stationery,Limpopo,In-store,Mpho Ndlovu,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0020,2025-04-02,CUST054,P006,SSD 1TB,Electronics,Mpumalanga,Phone Order,Kabelo Dlamini,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0053,2025-04-02,CUST052,P010,Notebook Pack,Stationery,Mpumalanga,Phone Order,Sipho Nkosi,1,89.0,8.9,80.1,38.0,38.0,42.1
+ORD0437,2025-04-02,CUST059,P012,Laptop Backpack,Accessories,Mpumalanga,Phone Order,Aisha Jacobs,3,799.0,0.0,2397.0,470.0,1410.0,987.0
+ORD0141,2025-04-03,CUST040,P002,USB-C Hub,Accessories,Mpumalanga,In-store,Mpho Ndlovu,1,649.0,64.9,584.1,390.0,390.0,194.1
+ORD0359,2025-04-06,CUST007,P005,27-inch Monitor,Electronics,Gauteng,In-store,Lerato Molefe,2,3299.0,0.0,6598.0,2450.0,4900.0,1698.0
+ORD0383,2025-04-06,CUST040,P008,Office Chair,Office Furniture,Limpopo,Online,Kabelo Dlamini,1,2499.0,0.0,2499.0,1780.0,1780.0,719.0
+ORD0390,2025-04-06,CUST060,P006,SSD 1TB,Electronics,Limpopo,Phone Order,Sipho Nkosi,2,1599.0,319.8,2878.2,1120.0,2240.0,638.2
+ORD0422,2025-04-07,CUST058,P010,Notebook Pack,Stationery,Limpopo,Online,Mpho Ndlovu,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0032,2025-04-08,CUST030,P007,Headphones,Electronics,Limpopo,In-store,Mpho Ndlovu,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0212,2025-04-09,CUST055,P002,USB-C Hub,Accessories,Gauteng,Phone Order,Kabelo Dlamini,1,649.0,0.0,649.0,390.0,390.0,259.0
+ORD0257,2025-04-11,CUST020,P008,Office Chair,Office Furniture,Eastern Cape,Phone Order,Thandi Mokoena,2,2499.0,0.0,4998.0,1780.0,3560.0,1438.0
+ORD0021,2025-04-12,CUST050,P002,USB-C Hub,Accessories,Eastern Cape,In-store,Kabelo Dlamini,3,649.0,0.0,1947.0,390.0,1170.0,777.0
+ORD0273,2025-04-12,CUST003,P007,Headphones,Electronics,Limpopo,Phone Order,Lerato Molefe,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0457,2025-04-12,CUST058,P011,Printer Paper Box,Stationery,KwaZulu-Natal,In-store,Thandi Mokoena,1,599.0,0.0,599.0,410.0,410.0,189.0
+ORD0293,2025-04-13,CUST004,P010,Notebook Pack,Stationery,Gauteng,Phone Order,Kabelo Dlamini,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0234,2025-04-14,CUST060,P001,Wireless Mouse,Accessories,KwaZulu-Natal,Phone Order,Mpho Ndlovu,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0263,2025-04-15,CUST021,P004,Keyboard,Accessories,Mpumalanga,Online,Mpho Ndlovu,1,399.0,39.9,359.1,225.0,225.0,134.1
+ORD0096,2025-04-19,CUST039,P004,Keyboard,Accessories,Mpumalanga,Online,Kabelo Dlamini,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0498,2025-04-19,CUST044,P010,Notebook Pack,Stationery,Western Cape,In-store,Aisha Jacobs,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0247,2025-04-20,CUST032,P012,Laptop Backpack,Accessories,Limpopo,In-store,Sipho Nkosi,1,799.0,79.9,719.1,470.0,470.0,249.1
+ORD0418,2025-04-20,CUST044,P008,Office Chair,Office Furniture,Western Cape,In-store,Thandi Mokoena,1,2499.0,0.0,2499.0,1780.0,1780.0,719.0
+ORD0102,2025-04-21,CUST049,P010,Notebook Pack,Stationery,Eastern Cape,Phone Order,Lerato Molefe,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0268,2025-04-21,CUST039,P007,Headphones,Electronics,Mpumalanga,Phone Order,Mpho Ndlovu,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0407,2025-04-22,CUST021,P012,Laptop Backpack,Accessories,KwaZulu-Natal,Online,Kabelo Dlamini,3,799.0,0.0,2397.0,470.0,1410.0,987.0
+ORD0080,2025-04-23,CUST025,P006,SSD 1TB,Electronics,KwaZulu-Natal,Phone Order,Aisha Jacobs,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0188,2025-04-23,CUST020,P004,Keyboard,Accessories,Limpopo,In-store,Lerato Molefe,2,399.0,0.0,798.0,225.0,450.0,348.0
+ORD0394,2025-04-23,CUST011,P003,Laptop Stand,Accessories,Western Cape,Phone Order,Aisha Jacobs,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0179,2025-04-25,CUST008,P010,Notebook Pack,Stationery,KwaZulu-Natal,Phone Order,Sipho Nkosi,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0316,2025-04-25,CUST030,P010,Notebook Pack,Stationery,Mpumalanga,Phone Order,Kabelo Dlamini,3,89.0,40.05,226.95,38.0,114.0,112.95
+ORD0068,2025-04-26,CUST031,P010,Notebook Pack,Stationery,Eastern Cape,In-store,Mpho Ndlovu,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0326,2025-04-26,CUST059,P003,Laptop Stand,Accessories,Gauteng,Phone Order,Mpho Ndlovu,2,449.0,44.9,853.1,260.0,520.0,333.1
+ORD0414,2025-04-26,CUST022,P006,SSD 1TB,Electronics,Gauteng,Online,Aisha Jacobs,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0101,2025-04-29,CUST035,P001,Wireless Mouse,Accessories,Mpumalanga,In-store,Sipho Nkosi,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0294,2025-04-29,CUST059,P007,Headphones,Electronics,Limpopo,Online,Sipho Nkosi,2,899.0,179.8,1618.2,560.0,1120.0,498.2
+ORD0164,2025-04-30,CUST001,P004,Keyboard,Accessories,KwaZulu-Natal,In-store,Sipho Nkosi,1,399.0,39.9,359.1,225.0,225.0,134.1
+ORD0291,2025-04-30,CUST007,P001,Wireless Mouse,Accessories,Mpumalanga,In-store,Thandi Mokoena,1,299.0,14.95,284.05,170.0,170.0,114.05
+ORD0138,2025-05-01,CUST048,P008,Office Chair,Office Furniture,Gauteng,Online,Thandi Mokoena,4,2499.0,1499.4,8496.6,1780.0,7120.0,1376.6
+ORD0496,2025-05-01,CUST046,P006,SSD 1TB,Electronics,Gauteng,Phone Order,Kabelo Dlamini,1,1599.0,159.9,1439.1,1120.0,1120.0,319.1
+ORD0166,2025-05-02,CUST009,P007,Headphones,Electronics,Mpumalanga,Online,Kabelo Dlamini,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0322,2025-05-02,CUST015,P003,Laptop Stand,Accessories,Western Cape,Online,Lerato Molefe,1,449.0,22.45,426.55,260.0,260.0,166.55
+ORD0398,2025-05-02,CUST056,P002,USB-C Hub,Accessories,Mpumalanga,Phone Order,Aisha Jacobs,2,649.0,64.9,1233.1,390.0,780.0,453.1
+ORD0075,2025-05-03,CUST018,P003,Laptop Stand,Accessories,KwaZulu-Natal,Online,Kabelo Dlamini,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0023,2025-05-04,CUST032,P011,Printer Paper Box,Stationery,Gauteng,Phone Order,Sipho Nkosi,4,599.0,0.0,2396.0,410.0,1640.0,756.0
+ORD0466,2025-05-04,CUST004,P003,Laptop Stand,Accessories,Limpopo,Phone Order,Mpho Ndlovu,3,449.0,134.7,1212.3,260.0,780.0,432.3
+ORD0128,2025-05-05,CUST039,P005,27-inch Monitor,Electronics,Eastern Cape,Phone Order,Sipho Nkosi,1,3299.0,0.0,3299.0,2450.0,2450.0,849.0
+ORD0280,2025-05-05,CUST002,P001,Wireless Mouse,Accessories,Western Cape,Online,Mpho Ndlovu,4,299.0,0.0,1196.0,170.0,680.0,516.0
+ORD0443,2025-05-06,CUST035,P002,USB-C Hub,Accessories,KwaZulu-Natal,Phone Order,Aisha Jacobs,4,649.0,0.0,2596.0,390.0,1560.0,1036.0
+ORD0397,2025-05-07,CUST023,P003,Laptop Stand,Accessories,Gauteng,Online,Thandi Mokoena,5,449.0,0.0,2245.0,260.0,1300.0,945.0
+ORD0420,2025-05-07,CUST039,P003,Laptop Stand,Accessories,Mpumalanga,Phone Order,Lerato Molefe,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0301,2025-05-08,CUST018,P001,Wireless Mouse,Accessories,KwaZulu-Natal,Online,Kabelo Dlamini,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0148,2025-05-09,CUST054,P009,Desk Lamp,Office Furniture,Limpopo,Phone Order,Thandi Mokoena,2,349.0,0.0,698.0,190.0,380.0,318.0
+ORD0084,2025-05-10,CUST004,P010,Notebook Pack,Stationery,KwaZulu-Natal,In-store,Aisha Jacobs,1,89.0,4.45,84.55,38.0,38.0,46.55
+ORD0106,2025-05-10,CUST026,P012,Laptop Backpack,Accessories,Western Cape,In-store,Kabelo Dlamini,1,799.0,39.95,759.05,470.0,470.0,289.05
+ORD0175,2025-05-11,CUST005,P004,Keyboard,Accessories,Gauteng,In-store,Thandi Mokoena,1,399.0,39.9,359.1,225.0,225.0,134.1
+ORD0435,2025-05-11,CUST008,P010,Notebook Pack,Stationery,Limpopo,Phone Order,Kabelo Dlamini,4,89.0,17.8,338.2,38.0,152.0,186.2
+ORD0337,2025-05-12,CUST048,P010,Notebook Pack,Stationery,Western Cape,Online,Sipho Nkosi,2,89.0,8.9,169.1,38.0,76.0,93.1
+ORD0074,2025-05-13,CUST050,P010,Notebook Pack,Stationery,Eastern Cape,Online,Aisha Jacobs,3,89.0,0.0,267.0,38.0,114.0,153.0
+ORD0432,2025-05-13,CUST018,P002,USB-C Hub,Accessories,Mpumalanga,In-store,Thandi Mokoena,1,649.0,32.45,616.55,390.0,390.0,226.55
+ORD0083,2025-05-14,CUST049,P004,Keyboard,Accessories,Western Cape,Online,Mpho Ndlovu,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0113,2025-05-16,CUST060,P010,Notebook Pack,Stationery,Limpopo,Online,Thandi Mokoena,2,89.0,8.9,169.1,38.0,76.0,93.1
+ORD0154,2025-05-16,CUST044,P007,Headphones,Electronics,KwaZulu-Natal,Phone Order,Mpho Ndlovu,1,899.0,44.95,854.05,560.0,560.0,294.05
+ORD0054,2025-05-17,CUST003,P002,USB-C Hub,Accessories,Western Cape,In-store,Sipho Nkosi,2,649.0,0.0,1298.0,390.0,780.0,518.0
+ORD0401,2025-05-17,CUST053,P012,Laptop Backpack,Accessories,Gauteng,In-store,Mpho Ndlovu,2,799.0,159.8,1438.2,470.0,940.0,498.2
+ORD0146,2025-05-21,CUST004,P001,Wireless Mouse,Accessories,Eastern Cape,Phone Order,Mpho Ndlovu,3,299.0,44.85,852.15,170.0,510.0,342.15
+ORD0004,2025-05-23,CUST045,P010,Notebook Pack,Stationery,Western Cape,Online,Lerato Molefe,1,89.0,4.45,84.55,38.0,38.0,46.55
+ORD0009,2025-05-23,CUST023,P005,27-inch Monitor,Electronics,Limpopo,Phone Order,Lerato Molefe,3,3299.0,0.0,9897.0,2450.0,7350.0,2547.0
+ORD0405,2025-05-23,CUST032,P009,Desk Lamp,Office Furniture,KwaZulu-Natal,Phone Order,Thandi Mokoena,3,349.0,0.0,1047.0,190.0,570.0,477.0
+ORD0160,2025-05-24,CUST016,P001,Wireless Mouse,Accessories,KwaZulu-Natal,In-store,Aisha Jacobs,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0130,2025-05-25,CUST043,P009,Desk Lamp,Office Furniture,Western Cape,In-store,Mpho Ndlovu,3,349.0,0.0,1047.0,190.0,570.0,477.0
+ORD0207,2025-05-26,CUST039,P003,Laptop Stand,Accessories,Limpopo,Online,Thandi Mokoena,3,449.0,202.05,1144.95,260.0,780.0,364.95
+ORD0147,2025-05-27,CUST015,P010,Notebook Pack,Stationery,Mpumalanga,In-store,Kabelo Dlamini,1,89.0,4.45,84.55,38.0,38.0,46.55
+ORD0269,2025-05-27,CUST057,P007,Headphones,Electronics,KwaZulu-Natal,Phone Order,Lerato Molefe,3,899.0,0.0,2697.0,560.0,1680.0,1017.0
+ORD0343,2025-05-27,CUST052,P001,Wireless Mouse,Accessories,Limpopo,In-store,Thandi Mokoena,3,299.0,44.85,852.15,170.0,510.0,342.15
+ORD0426,2025-05-27,CUST045,P008,Office Chair,Office Furniture,Western Cape,In-store,Aisha Jacobs,2,2499.0,0.0,4998.0,1780.0,3560.0,1438.0
+ORD0143,2025-05-28,CUST023,P009,Desk Lamp,Office Furniture,Eastern Cape,Online,Aisha Jacobs,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0178,2025-05-28,CUST014,P007,Headphones,Electronics,Limpopo,Phone Order,Mpho Ndlovu,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0189,2025-05-29,CUST012,P004,Keyboard,Accessories,Limpopo,Online,Kabelo Dlamini,1,399.0,19.95,379.05,225.0,225.0,154.05
+ORD0321,2025-05-29,CUST037,P003,Laptop Stand,Accessories,Eastern Cape,Phone Order,Lerato Molefe,4,449.0,0.0,1796.0,260.0,1040.0,756.0
+ORD0007,2025-05-31,CUST037,P010,Notebook Pack,Stationery,Limpopo,Phone Order,Thandi Mokoena,2,89.0,17.8,160.2,38.0,76.0,84.2
+ORD0285,2025-06-02,CUST019,P002,USB-C Hub,Accessories,Mpumalanga,In-store,Aisha Jacobs,5,649.0,0.0,3245.0,390.0,1950.0,1295.0
+ORD0044,2025-06-04,CUST001,P007,Headphones,Electronics,Mpumalanga,Phone Order,Lerato Molefe,5,899.0,0.0,4495.0,560.0,2800.0,1695.0
+ORD0116,2025-06-05,CUST032,P009,Desk Lamp,Office Furniture,Western Cape,In-store,Kabelo Dlamini,4,349.0,0.0,1396.0,190.0,760.0,636.0
+ORD0115,2025-06-07,CUST029,P007,Headphones,Electronics,Gauteng,Online,Aisha Jacobs,3,899.0,269.7,2427.3,560.0,1680.0,747.3
+ORD0303,2025-06-07,CUST057,P002,USB-C Hub,Accessories,Mpumalanga,Online,Aisha Jacobs,2,649.0,129.8,1168.2,390.0,780.0,388.2
+ORD0491,2025-06-07,CUST017,P010,Notebook Pack,Stationery,Gauteng,Phone Order,Kabelo Dlamini,1,89.0,8.9,80.1,38.0,38.0,42.1
+ORD0182,2025-06-08,CUST010,P012,Laptop Backpack,Accessories,Eastern Cape,Phone Order,Mpho Ndlovu,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0429,2025-06-08,CUST004,P009,Desk Lamp,Office Furniture,Limpopo,In-store,Mpho Ndlovu,2,349.0,69.8,628.2,190.0,380.0,248.2
+ORD0283,2025-06-10,CUST035,P012,Laptop Backpack,Accessories,KwaZulu-Natal,Phone Order,Aisha Jacobs,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0137,2025-06-12,CUST035,P007,Headphones,Electronics,Gauteng,Phone Order,Thandi Mokoena,3,899.0,0.0,2697.0,560.0,1680.0,1017.0
+ORD0334,2025-06-13,CUST037,P011,Printer Paper Box,Stationery,Limpopo,Phone Order,Sipho Nkosi,1,599.0,0.0,599.0,410.0,410.0,189.0
+ORD0203,2025-06-14,CUST029,P007,Headphones,Electronics,Gauteng,Online,Aisha Jacobs,2,899.0,179.8,1618.2,560.0,1120.0,498.2
+ORD0022,2025-06-15,CUST054,P006,SSD 1TB,Electronics,KwaZulu-Natal,In-store,Thandi Mokoena,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0256,2025-06-15,CUST034,P012,Laptop Backpack,Accessories,KwaZulu-Natal,In-store,Lerato Molefe,1,799.0,79.9,719.1,470.0,470.0,249.1
+ORD0012,2025-06-16,CUST003,P010,Notebook Pack,Stationery,KwaZulu-Natal,Online,Lerato Molefe,3,89.0,0.0,267.0,38.0,114.0,153.0
+ORD0449,2025-06-17,CUST013,P004,Keyboard,Accessories,Limpopo,Phone Order,Thandi Mokoena,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0121,2025-06-18,CUST026,P004,Keyboard,Accessories,Eastern Cape,In-store,Mpho Ndlovu,2,399.0,39.9,758.1,225.0,450.0,308.1
+ORD0336,2025-06-18,CUST036,P003,Laptop Stand,Accessories,Mpumalanga,Phone Order,Lerato Molefe,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0236,2025-06-19,CUST026,P003,Laptop Stand,Accessories,Mpumalanga,Online,Mpho Ndlovu,3,449.0,0.0,1347.0,260.0,780.0,567.0
+ORD0348,2025-06-19,CUST034,P007,Headphones,Electronics,Gauteng,In-store,Sipho Nkosi,3,899.0,0.0,2697.0,560.0,1680.0,1017.0
+ORD0471,2025-06-19,CUST046,P011,Printer Paper Box,Stationery,Limpopo,Online,Thandi Mokoena,1,599.0,0.0,599.0,410.0,410.0,189.0
+ORD0365,2025-06-20,CUST029,P010,Notebook Pack,Stationery,KwaZulu-Natal,Online,Aisha Jacobs,1,89.0,8.9,80.1,38.0,38.0,42.1
+ORD0223,2025-06-21,CUST054,P010,Notebook Pack,Stationery,Western Cape,Phone Order,Sipho Nkosi,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0433,2025-06-21,CUST046,P010,Notebook Pack,Stationery,Eastern Cape,Phone Order,Thandi Mokoena,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0299,2025-06-22,CUST012,P010,Notebook Pack,Stationery,Eastern Cape,Phone Order,Mpho Ndlovu,2,89.0,8.9,169.1,38.0,76.0,93.1
+ORD0136,2025-06-23,CUST022,P007,Headphones,Electronics,Mpumalanga,Phone Order,Mpho Ndlovu,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0152,2025-06-23,CUST049,P010,Notebook Pack,Stationery,Limpopo,Phone Order,Aisha Jacobs,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0174,2025-06-23,CUST021,P010,Notebook Pack,Stationery,Western Cape,Online,Aisha Jacobs,1,89.0,4.45,84.55,38.0,38.0,46.55
+ORD0237,2025-06-23,CUST060,P012,Laptop Backpack,Accessories,Eastern Cape,Online,Thandi Mokoena,2,799.0,0.0,1598.0,470.0,940.0,658.0
+ORD0381,2025-06-25,CUST048,P008,Office Chair,Office Furniture,Limpopo,Phone Order,Sipho Nkosi,2,2499.0,0.0,4998.0,1780.0,3560.0,1438.0
+ORD0485,2025-06-25,CUST036,P002,USB-C Hub,Accessories,Gauteng,Online,Kabelo Dlamini,1,649.0,32.45,616.55,390.0,390.0,226.55
+ORD0231,2025-06-26,CUST038,P003,Laptop Stand,Accessories,Mpumalanga,Online,Sipho Nkosi,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0254,2025-06-26,CUST038,P001,Wireless Mouse,Accessories,Limpopo,In-store,Mpho Ndlovu,3,299.0,0.0,897.0,170.0,510.0,387.0
+ORD0249,2025-06-27,CUST020,P009,Desk Lamp,Office Furniture,Limpopo,Phone Order,Aisha Jacobs,2,349.0,0.0,698.0,190.0,380.0,318.0
+ORD0043,2025-06-28,CUST011,P011,Printer Paper Box,Stationery,Western Cape,Phone Order,Aisha Jacobs,3,599.0,0.0,1797.0,410.0,1230.0,567.0
+ORD0379,2025-06-28,CUST031,P004,Keyboard,Accessories,KwaZulu-Natal,Online,Thandi Mokoena,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0200,2025-06-30,CUST004,P006,SSD 1TB,Electronics,KwaZulu-Natal,Online,Thandi Mokoena,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0338,2025-06-30,CUST059,P002,USB-C Hub,Accessories,Eastern Cape,Phone Order,Thandi Mokoena,2,649.0,0.0,1298.0,390.0,780.0,518.0
+ORD0467,2025-07-01,CUST016,P012,Laptop Backpack,Accessories,Eastern Cape,Online,Aisha Jacobs,5,799.0,0.0,3995.0,470.0,2350.0,1645.0
+ORD0453,2025-07-02,CUST053,P004,Keyboard,Accessories,Limpopo,In-store,Mpho Ndlovu,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0333,2025-07-03,CUST030,P003,Laptop Stand,Accessories,Gauteng,Phone Order,Mpho Ndlovu,1,449.0,44.9,404.1,260.0,260.0,144.1
+ORD0229,2025-07-04,CUST033,P001,Wireless Mouse,Accessories,Eastern Cape,In-store,Mpho Ndlovu,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0092,2025-07-05,CUST028,P008,Office Chair,Office Furniture,Limpopo,Phone Order,Kabelo Dlamini,3,2499.0,374.85,7122.15,1780.0,5340.0,1782.15
+ORD0245,2025-07-07,CUST008,P004,Keyboard,Accessories,Gauteng,Phone Order,Sipho Nkosi,2,399.0,0.0,798.0,225.0,450.0,348.0
+ORD0087,2025-07-08,CUST008,P002,USB-C Hub,Accessories,Limpopo,Online,Thandi Mokoena,2,649.0,64.9,1233.1,390.0,780.0,453.1
+ORD0161,2025-07-08,CUST026,P007,Headphones,Electronics,KwaZulu-Natal,In-store,Thandi Mokoena,5,899.0,0.0,4495.0,560.0,2800.0,1695.0
+ORD0416,2025-07-08,CUST049,P011,Printer Paper Box,Stationery,Limpopo,Phone Order,Aisha Jacobs,1,599.0,29.95,569.05,410.0,410.0,159.05
+ORD0439,2025-07-10,CUST015,P001,Wireless Mouse,Accessories,Eastern Cape,In-store,Mpho Ndlovu,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0341,2025-07-11,CUST059,P001,Wireless Mouse,Accessories,Western Cape,Phone Order,Mpho Ndlovu,2,299.0,59.8,538.2,170.0,340.0,198.2
+ORD0389,2025-07-11,CUST009,P009,Desk Lamp,Office Furniture,Eastern Cape,Online,Mpho Ndlovu,2,349.0,0.0,698.0,190.0,380.0,318.0
+ORD0473,2025-07-11,CUST022,P009,Desk Lamp,Office Furniture,KwaZulu-Natal,Online,Sipho Nkosi,2,349.0,0.0,698.0,190.0,380.0,318.0
+ORD0368,2025-07-12,CUST060,P003,Laptop Stand,Accessories,Eastern Cape,In-store,Kabelo Dlamini,3,449.0,0.0,1347.0,260.0,780.0,567.0
+ORD0356,2025-07-14,CUST046,P001,Wireless Mouse,Accessories,Gauteng,In-store,Lerato Molefe,2,299.0,29.9,568.1,170.0,340.0,228.1
+ORD0145,2025-07-15,CUST019,P007,Headphones,Electronics,Gauteng,Phone Order,Mpho Ndlovu,2,899.0,269.7,1528.3,560.0,1120.0,408.3
+ORD0314,2025-07-15,CUST006,P005,27-inch Monitor,Electronics,Mpumalanga,Phone Order,Kabelo Dlamini,4,3299.0,0.0,13196.0,2450.0,9800.0,3396.0
+ORD0459,2025-07-15,CUST012,P009,Desk Lamp,Office Furniture,KwaZulu-Natal,Online,Mpho Ndlovu,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0222,2025-07-17,CUST060,P012,Laptop Backpack,Accessories,Gauteng,Phone Order,Aisha Jacobs,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0361,2025-07-18,CUST016,P010,Notebook Pack,Stationery,Eastern Cape,Phone Order,Sipho Nkosi,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0492,2025-07-18,CUST029,P002,USB-C Hub,Accessories,Gauteng,Online,Mpho Ndlovu,3,649.0,0.0,1947.0,390.0,1170.0,777.0
+ORD0035,2025-07-19,CUST028,P003,Laptop Stand,Accessories,Mpumalanga,Phone Order,Kabelo Dlamini,3,449.0,0.0,1347.0,260.0,780.0,567.0
+ORD0079,2025-07-19,CUST048,P010,Notebook Pack,Stationery,Mpumalanga,Phone Order,Kabelo Dlamini,4,89.0,0.0,356.0,38.0,152.0,204.0
+ORD0014,2025-07-22,CUST009,P011,Printer Paper Box,Stationery,Limpopo,Phone Order,Kabelo Dlamini,2,599.0,0.0,1198.0,410.0,820.0,378.0
+ORD0311,2025-07-22,CUST005,P003,Laptop Stand,Accessories,Gauteng,Online,Lerato Molefe,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0332,2025-07-23,CUST025,P011,Printer Paper Box,Stationery,Western Cape,Phone Order,Aisha Jacobs,2,599.0,59.9,1138.1,410.0,820.0,318.1
+ORD0367,2025-07-23,CUST032,P012,Laptop Backpack,Accessories,Eastern Cape,In-store,Lerato Molefe,1,799.0,39.95,759.05,470.0,470.0,289.05
+ORD0056,2025-07-24,CUST018,P004,Keyboard,Accessories,KwaZulu-Natal,Phone Order,Kabelo Dlamini,3,399.0,179.55,1017.45,225.0,675.0,342.45
+ORD0057,2025-07-24,CUST002,P009,Desk Lamp,Office Furniture,Gauteng,Online,Sipho Nkosi,3,349.0,0.0,1047.0,190.0,570.0,477.0
+ORD0063,2025-07-26,CUST043,P009,Desk Lamp,Office Furniture,Western Cape,Phone Order,Aisha Jacobs,2,349.0,0.0,698.0,190.0,380.0,318.0
+ORD0270,2025-07-26,CUST013,P004,Keyboard,Accessories,KwaZulu-Natal,Phone Order,Lerato Molefe,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0081,2025-07-27,CUST040,P009,Desk Lamp,Office Furniture,Eastern Cape,In-store,Mpho Ndlovu,3,349.0,104.7,942.3,190.0,570.0,372.3
+ORD0099,2025-07-27,CUST031,P009,Desk Lamp,Office Furniture,Eastern Cape,Phone Order,Lerato Molefe,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0192,2025-07-27,CUST002,P009,Desk Lamp,Office Furniture,KwaZulu-Natal,In-store,Kabelo Dlamini,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0262,2025-07-27,CUST029,P003,Laptop Stand,Accessories,Western Cape,Online,Mpho Ndlovu,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0034,2025-07-28,CUST004,P006,SSD 1TB,Electronics,Limpopo,Online,Thandi Mokoena,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0077,2025-07-28,CUST054,P004,Keyboard,Accessories,Western Cape,Online,Kabelo Dlamini,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0157,2025-07-29,CUST032,P001,Wireless Mouse,Accessories,Gauteng,In-store,Sipho Nkosi,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0313,2025-07-29,CUST047,P002,USB-C Hub,Accessories,Mpumalanga,Online,Lerato Molefe,1,649.0,0.0,649.0,390.0,390.0,259.0
+ORD0069,2025-08-01,CUST025,P011,Printer Paper Box,Stationery,Western Cape,Online,Sipho Nkosi,2,599.0,59.9,1138.1,410.0,820.0,318.1
+ORD0310,2025-08-01,CUST052,P005,27-inch Monitor,Electronics,KwaZulu-Natal,Phone Order,Thandi Mokoena,1,3299.0,0.0,3299.0,2450.0,2450.0,849.0
+ORD0327,2025-08-02,CUST014,P007,Headphones,Electronics,KwaZulu-Natal,Phone Order,Thandi Mokoena,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0184,2025-08-03,CUST021,P005,27-inch Monitor,Electronics,Eastern Cape,Phone Order,Thandi Mokoena,1,3299.0,0.0,3299.0,2450.0,2450.0,849.0
+ORD0218,2025-08-03,CUST009,P012,Laptop Backpack,Accessories,KwaZulu-Natal,In-store,Aisha Jacobs,3,799.0,119.85,2277.15,470.0,1410.0,867.15
+ORD0438,2025-08-03,CUST021,P002,USB-C Hub,Accessories,KwaZulu-Natal,In-store,Kabelo Dlamini,1,649.0,64.9,584.1,390.0,390.0,194.1
+ORD0482,2025-08-03,CUST025,P012,Laptop Backpack,Accessories,KwaZulu-Natal,Phone Order,Mpho Ndlovu,3,799.0,0.0,2397.0,470.0,1410.0,987.0
+ORD0017,2025-08-05,CUST030,P007,Headphones,Electronics,Eastern Cape,Online,Kabelo Dlamini,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0100,2025-08-06,CUST030,P012,Laptop Backpack,Accessories,KwaZulu-Natal,Online,Lerato Molefe,2,799.0,0.0,1598.0,470.0,940.0,658.0
+ORD0144,2025-08-06,CUST025,P009,Desk Lamp,Office Furniture,Western Cape,In-store,Sipho Nkosi,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0186,2025-08-06,CUST049,P006,SSD 1TB,Electronics,Eastern Cape,In-store,Lerato Molefe,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0238,2025-08-06,CUST035,P001,Wireless Mouse,Accessories,KwaZulu-Natal,Online,Thandi Mokoena,2,299.0,29.9,568.1,170.0,340.0,228.1
+ORD0317,2025-08-06,CUST023,P007,Headphones,Electronics,Limpopo,Online,Sipho Nkosi,3,899.0,0.0,2697.0,560.0,1680.0,1017.0
+ORD0300,2025-08-07,CUST012,P006,SSD 1TB,Electronics,Limpopo,Online,Lerato Molefe,1,1599.0,79.95,1519.05,1120.0,1120.0,399.05
+ORD0180,2025-08-08,CUST040,P010,Notebook Pack,Stationery,Mpumalanga,Phone Order,Kabelo Dlamini,5,89.0,22.25,422.75,38.0,190.0,232.75
+ORD0384,2025-08-08,CUST049,P004,Keyboard,Accessories,Mpumalanga,In-store,Kabelo Dlamini,2,399.0,0.0,798.0,225.0,450.0,348.0
+ORD0399,2025-08-08,CUST014,P002,USB-C Hub,Accessories,Gauteng,Phone Order,Lerato Molefe,1,649.0,0.0,649.0,390.0,390.0,259.0
+ORD0413,2025-08-08,CUST031,P008,Office Chair,Office Furniture,Gauteng,In-store,Kabelo Dlamini,2,2499.0,0.0,4998.0,1780.0,3560.0,1438.0
+ORD0065,2025-08-09,CUST029,P010,Notebook Pack,Stationery,Western Cape,Phone Order,Sipho Nkosi,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0187,2025-08-09,CUST034,P001,Wireless Mouse,Accessories,Mpumalanga,Online,Thandi Mokoena,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0176,2025-08-10,CUST036,P001,Wireless Mouse,Accessories,Gauteng,Phone Order,Kabelo Dlamini,2,299.0,29.9,568.1,170.0,340.0,228.1
+ORD0363,2025-08-11,CUST024,P003,Laptop Stand,Accessories,KwaZulu-Natal,In-store,Aisha Jacobs,1,449.0,22.45,426.55,260.0,260.0,166.55
+ORD0059,2025-08-12,CUST037,P007,Headphones,Electronics,Limpopo,Online,Thandi Mokoena,2,899.0,0.0,1798.0,560.0,1120.0,678.0
+ORD0026,2025-08-13,CUST005,P011,Printer Paper Box,Stationery,KwaZulu-Natal,In-store,Kabelo Dlamini,1,599.0,0.0,599.0,410.0,410.0,189.0
+ORD0370,2025-08-13,CUST055,P010,Notebook Pack,Stationery,Western Cape,Phone Order,Mpho Ndlovu,3,89.0,0.0,267.0,38.0,114.0,153.0
+ORD0380,2025-08-13,CUST003,P009,Desk Lamp,Office Furniture,Mpumalanga,In-store,Thandi Mokoena,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0109,2025-08-15,CUST037,P003,Laptop Stand,Accessories,Eastern Cape,In-store,Kabelo Dlamini,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0240,2025-08-16,CUST023,P004,Keyboard,Accessories,Eastern Cape,Online,Lerato Molefe,1,399.0,39.9,359.1,225.0,225.0,134.1
+ORD0377,2025-08-17,CUST045,P004,Keyboard,Accessories,Eastern Cape,In-store,Lerato Molefe,1,399.0,19.95,379.05,225.0,225.0,154.05
+ORD0216,2025-08-18,CUST051,P003,Laptop Stand,Accessories,Western Cape,In-store,Lerato Molefe,1,449.0,67.35,381.65,260.0,260.0,121.65
+ORD0372,2025-08-18,CUST033,P012,Laptop Backpack,Accessories,Mpumalanga,Online,Kabelo Dlamini,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0221,2025-08-19,CUST026,P011,Printer Paper Box,Stationery,Eastern Cape,Online,Sipho Nkosi,4,599.0,0.0,2396.0,410.0,1640.0,756.0
+ORD0265,2025-08-19,CUST025,P003,Laptop Stand,Accessories,Eastern Cape,Online,Sipho Nkosi,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0328,2025-08-19,CUST013,P010,Notebook Pack,Stationery,Gauteng,Online,Mpho Ndlovu,1,89.0,4.45,84.55,38.0,38.0,46.55
+ORD0451,2025-08-20,CUST011,P003,Laptop Stand,Accessories,Mpumalanga,Online,Aisha Jacobs,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0454,2025-08-20,CUST007,P007,Headphones,Electronics,Limpopo,In-store,Thandi Mokoena,2,899.0,0.0,1798.0,560.0,1120.0,678.0
+ORD0484,2025-08-20,CUST021,P001,Wireless Mouse,Accessories,KwaZulu-Natal,In-store,Thandi Mokoena,3,299.0,0.0,897.0,170.0,510.0,387.0
+ORD0162,2025-08-21,CUST002,P001,Wireless Mouse,Accessories,Gauteng,Online,Sipho Nkosi,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0135,2025-08-22,CUST010,P001,Wireless Mouse,Accessories,Gauteng,Online,Lerato Molefe,1,299.0,29.9,269.1,170.0,170.0,99.1
+ORD0441,2025-08-22,CUST020,P001,Wireless Mouse,Accessories,Mpumalanga,Phone Order,Sipho Nkosi,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0169,2025-08-23,CUST055,P008,Office Chair,Office Furniture,Western Cape,Online,Aisha Jacobs,1,2499.0,374.85,2124.15,1780.0,1780.0,344.15
+ORD0055,2025-08-24,CUST015,P004,Keyboard,Accessories,Gauteng,Phone Order,Sipho Nkosi,3,399.0,119.7,1077.3,225.0,675.0,402.3
+ORD0193,2025-08-24,CUST055,P010,Notebook Pack,Stationery,Gauteng,In-store,Mpho Ndlovu,4,89.0,0.0,356.0,38.0,152.0,204.0
+ORD0458,2025-08-25,CUST047,P001,Wireless Mouse,Accessories,Western Cape,Online,Thandi Mokoena,4,299.0,0.0,1196.0,170.0,680.0,516.0
+ORD0095,2025-08-26,CUST032,P007,Headphones,Electronics,KwaZulu-Natal,In-store,Mpho Ndlovu,2,899.0,0.0,1798.0,560.0,1120.0,678.0
+ORD0442,2025-08-26,CUST050,P004,Keyboard,Accessories,Limpopo,Phone Order,Kabelo Dlamini,5,399.0,299.25,1695.75,225.0,1125.0,570.75
+ORD0493,2025-08-27,CUST010,P003,Laptop Stand,Accessories,Mpumalanga,Phone Order,Thandi Mokoena,3,449.0,0.0,1347.0,260.0,780.0,567.0
+ORD0267,2025-08-28,CUST026,P006,SSD 1TB,Electronics,Eastern Cape,Online,Sipho Nkosi,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0230,2025-08-29,CUST048,P001,Wireless Mouse,Accessories,Gauteng,Online,Thandi Mokoena,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0133,2025-08-31,CUST043,P009,Desk Lamp,Office Furniture,Mpumalanga,In-store,Mpho Ndlovu,3,349.0,0.0,1047.0,190.0,570.0,477.0
+ORD0274,2025-08-31,CUST009,P006,SSD 1TB,Electronics,KwaZulu-Natal,Phone Order,Lerato Molefe,1,1599.0,159.9,1439.1,1120.0,1120.0,319.1
+ORD0233,2025-09-03,CUST050,P008,Office Chair,Office Furniture,Western Cape,In-store,Lerato Molefe,3,2499.0,0.0,7497.0,1780.0,5340.0,2157.0
+ORD0289,2025-09-03,CUST036,P002,USB-C Hub,Accessories,Mpumalanga,Online,Sipho Nkosi,3,649.0,0.0,1947.0,390.0,1170.0,777.0
+ORD0461,2025-09-03,CUST013,P001,Wireless Mouse,Accessories,Mpumalanga,Phone Order,Sipho Nkosi,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0490,2025-09-03,CUST019,P002,USB-C Hub,Accessories,Gauteng,Online,Thandi Mokoena,1,649.0,0.0,649.0,390.0,390.0,259.0
+ORD0219,2025-09-04,CUST055,P011,Printer Paper Box,Stationery,Eastern Cape,In-store,Lerato Molefe,2,599.0,0.0,1198.0,410.0,820.0,378.0
+ORD0392,2025-09-06,CUST033,P002,USB-C Hub,Accessories,Mpumalanga,Online,Mpho Ndlovu,3,649.0,292.05,1654.95,390.0,1170.0,484.95
+ORD0391,2025-09-08,CUST040,P003,Laptop Stand,Accessories,Gauteng,Online,Thandi Mokoena,1,449.0,44.9,404.1,260.0,260.0,144.1
+ORD0120,2025-09-09,CUST021,P012,Laptop Backpack,Accessories,Mpumalanga,In-store,Sipho Nkosi,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0355,2025-09-09,CUST012,P003,Laptop Stand,Accessories,Mpumalanga,Phone Order,Aisha Jacobs,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0470,2025-09-09,CUST002,P001,Wireless Mouse,Accessories,Eastern Cape,Online,Thandi Mokoena,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0489,2025-09-09,CUST019,P002,USB-C Hub,Accessories,Mpumalanga,Phone Order,Kabelo Dlamini,1,649.0,0.0,649.0,390.0,390.0,259.0
+ORD0251,2025-09-10,CUST052,P001,Wireless Mouse,Accessories,Eastern Cape,In-store,Kabelo Dlamini,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0395,2025-09-11,CUST050,P007,Headphones,Electronics,Eastern Cape,Online,Kabelo Dlamini,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0434,2025-09-12,CUST037,P005,27-inch Monitor,Electronics,Limpopo,Online,Sipho Nkosi,1,3299.0,0.0,3299.0,2450.0,2450.0,849.0
+ORD0246,2025-09-13,CUST050,P006,SSD 1TB,Electronics,KwaZulu-Natal,Phone Order,Mpho Ndlovu,4,1599.0,0.0,6396.0,1120.0,4480.0,1916.0
+ORD0353,2025-09-14,CUST015,P010,Notebook Pack,Stationery,Gauteng,Online,Kabelo Dlamini,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0168,2025-09-15,CUST059,P002,USB-C Hub,Accessories,Mpumalanga,Phone Order,Lerato Molefe,2,649.0,64.9,1233.1,390.0,780.0,453.1
+ORD0255,2025-09-15,CUST010,P011,Printer Paper Box,Stationery,KwaZulu-Natal,In-store,Sipho Nkosi,1,599.0,0.0,599.0,410.0,410.0,189.0
+ORD0258,2025-09-15,CUST011,P008,Office Chair,Office Furniture,Mpumalanga,Phone Order,Aisha Jacobs,2,2499.0,0.0,4998.0,1780.0,3560.0,1438.0
+ORD0047,2025-09-16,CUST006,P006,SSD 1TB,Electronics,Mpumalanga,Online,Lerato Molefe,4,1599.0,639.6,5756.4,1120.0,4480.0,1276.4
+ORD0073,2025-09-16,CUST011,P005,27-inch Monitor,Electronics,Mpumalanga,Online,Mpho Ndlovu,4,3299.0,0.0,13196.0,2450.0,9800.0,3396.0
+ORD0016,2025-09-18,CUST010,P006,SSD 1TB,Electronics,Mpumalanga,In-store,Aisha Jacobs,3,1599.0,479.7,4317.3,1120.0,3360.0,957.3
+ORD0038,2025-09-18,CUST044,P001,Wireless Mouse,Accessories,Limpopo,Online,Thandi Mokoena,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0066,2025-09-19,CUST011,P006,SSD 1TB,Electronics,Mpumalanga,In-store,Lerato Molefe,4,1599.0,319.8,6076.2,1120.0,4480.0,1596.2
+ORD0067,2025-09-21,CUST049,P009,Desk Lamp,Office Furniture,Limpopo,Phone Order,Lerato Molefe,2,349.0,0.0,698.0,190.0,380.0,318.0
+ORD0497,2025-09-22,CUST008,P010,Notebook Pack,Stationery,Western Cape,In-store,Sipho Nkosi,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0040,2025-09-25,CUST021,P004,Keyboard,Accessories,Limpopo,Online,Mpho Ndlovu,1,399.0,19.95,379.05,225.0,225.0,154.05
+ORD0339,2025-09-26,CUST043,P001,Wireless Mouse,Accessories,Gauteng,In-store,Mpho Ndlovu,3,299.0,89.7,807.3,170.0,510.0,297.3
+ORD0344,2025-09-26,CUST053,P002,USB-C Hub,Accessories,KwaZulu-Natal,Online,Mpho Ndlovu,1,649.0,0.0,649.0,390.0,390.0,259.0
+ORD0213,2025-09-27,CUST009,P001,Wireless Mouse,Accessories,Eastern Cape,Online,Sipho Nkosi,1,299.0,14.95,284.05,170.0,170.0,114.05
+ORD0307,2025-09-28,CUST004,P009,Desk Lamp,Office Furniture,Eastern Cape,Phone Order,Sipho Nkosi,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0151,2025-09-29,CUST059,P006,SSD 1TB,Electronics,Western Cape,Online,Aisha Jacobs,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0172,2025-09-29,CUST051,P003,Laptop Stand,Accessories,Mpumalanga,In-store,Aisha Jacobs,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0465,2025-09-29,CUST011,P004,Keyboard,Accessories,Gauteng,In-store,Aisha Jacobs,2,399.0,0.0,798.0,225.0,450.0,348.0
+ORD0276,2025-09-30,CUST002,P006,SSD 1TB,Electronics,KwaZulu-Natal,Online,Aisha Jacobs,2,1599.0,0.0,3198.0,1120.0,2240.0,958.0
+ORD0400,2025-09-30,CUST046,P003,Laptop Stand,Accessories,KwaZulu-Natal,Online,Kabelo Dlamini,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0427,2025-10-02,CUST006,P007,Headphones,Electronics,Eastern Cape,In-store,Sipho Nkosi,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0428,2025-10-02,CUST042,P004,Keyboard,Accessories,Mpumalanga,Phone Order,Thandi Mokoena,2,399.0,39.9,758.1,225.0,450.0,308.1
+ORD0015,2025-10-03,CUST026,P003,Laptop Stand,Accessories,KwaZulu-Natal,In-store,Sipho Nkosi,2,449.0,89.8,808.2,260.0,520.0,288.2
+ORD0131,2025-10-03,CUST025,P006,SSD 1TB,Electronics,Western Cape,Online,Sipho Nkosi,1,1599.0,79.95,1519.05,1120.0,1120.0,399.05
+ORD0158,2025-10-03,CUST048,P001,Wireless Mouse,Accessories,Mpumalanga,Phone Order,Mpho Ndlovu,1,299.0,14.95,284.05,170.0,170.0,114.05
+ORD0025,2025-10-04,CUST026,P010,Notebook Pack,Stationery,Mpumalanga,Phone Order,Lerato Molefe,2,89.0,8.9,169.1,38.0,76.0,93.1
+ORD0165,2025-10-04,CUST002,P003,Laptop Stand,Accessories,Limpopo,In-store,Lerato Molefe,1,449.0,22.45,426.55,260.0,260.0,166.55
+ORD0488,2025-10-04,CUST004,P003,Laptop Stand,Accessories,Western Cape,Phone Order,Kabelo Dlamini,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0123,2025-10-05,CUST040,P005,27-inch Monitor,Electronics,Western Cape,Phone Order,Mpho Ndlovu,1,3299.0,0.0,3299.0,2450.0,2450.0,849.0
+ORD0114,2025-10-06,CUST010,P002,USB-C Hub,Accessories,Gauteng,In-store,Sipho Nkosi,1,649.0,0.0,649.0,390.0,390.0,259.0
+ORD0235,2025-10-06,CUST019,P006,SSD 1TB,Electronics,KwaZulu-Natal,In-store,Aisha Jacobs,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0297,2025-10-06,CUST033,P006,SSD 1TB,Electronics,Western Cape,Online,Sipho Nkosi,3,1599.0,0.0,4797.0,1120.0,3360.0,1437.0
+ORD0463,2025-10-06,CUST021,P010,Notebook Pack,Stationery,Western Cape,Online,Sipho Nkosi,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0002,2025-10-07,CUST014,P001,Wireless Mouse,Accessories,Limpopo,Phone Order,Kabelo Dlamini,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0369,2025-10-07,CUST047,P002,USB-C Hub,Accessories,Western Cape,Phone Order,Sipho Nkosi,3,649.0,0.0,1947.0,390.0,1170.0,777.0
+ORD0225,2025-10-08,CUST050,P012,Laptop Backpack,Accessories,KwaZulu-Natal,In-store,Lerato Molefe,2,799.0,0.0,1598.0,470.0,940.0,658.0
+ORD0033,2025-10-09,CUST001,P001,Wireless Mouse,Accessories,Gauteng,In-store,Sipho Nkosi,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0292,2025-10-09,CUST057,P012,Laptop Backpack,Accessories,Western Cape,Online,Aisha Jacobs,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0049,2025-10-10,CUST057,P009,Desk Lamp,Office Furniture,Mpumalanga,In-store,Kabelo Dlamini,2,349.0,0.0,698.0,190.0,380.0,318.0
+ORD0126,2025-10-10,CUST008,P004,Keyboard,Accessories,Western Cape,In-store,Aisha Jacobs,1,399.0,39.9,359.1,225.0,225.0,134.1
+ORD0347,2025-10-10,CUST006,P006,SSD 1TB,Electronics,Western Cape,Online,Aisha Jacobs,2,1599.0,159.9,3038.1,1120.0,2240.0,798.1
+ORD0382,2025-10-10,CUST015,P002,USB-C Hub,Accessories,Western Cape,Phone Order,Sipho Nkosi,2,649.0,129.8,1168.2,390.0,780.0,388.2
+ORD0027,2025-10-11,CUST041,P003,Laptop Stand,Accessories,Gauteng,In-store,Thandi Mokoena,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0202,2025-10-11,CUST059,P012,Laptop Backpack,Accessories,Eastern Cape,Phone Order,Sipho Nkosi,2,799.0,0.0,1598.0,470.0,940.0,658.0
+ORD0360,2025-10-11,CUST025,P001,Wireless Mouse,Accessories,Gauteng,Online,Mpho Ndlovu,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0324,2025-10-12,CUST043,P006,SSD 1TB,Electronics,Western Cape,Phone Order,Lerato Molefe,5,1599.0,799.5,7195.5,1120.0,5600.0,1595.5
+ORD0500,2025-10-12,CUST030,P004,Keyboard,Accessories,Gauteng,Phone Order,Kabelo Dlamini,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0108,2025-10-13,CUST015,P010,Notebook Pack,Stationery,Eastern Cape,Online,Mpho Ndlovu,2,89.0,8.9,169.1,38.0,76.0,93.1
+ORD0330,2025-10-14,CUST020,P002,USB-C Hub,Accessories,Gauteng,In-store,Sipho Nkosi,1,649.0,64.9,584.1,390.0,390.0,194.1
+ORD0177,2025-10-15,CUST043,P004,Keyboard,Accessories,Western Cape,Phone Order,Thandi Mokoena,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0350,2025-10-16,CUST002,P008,Office Chair,Office Furniture,Limpopo,Phone Order,Sipho Nkosi,1,2499.0,249.9,2249.1,1780.0,1780.0,469.1
+ORD0469,2025-10-16,CUST032,P012,Laptop Backpack,Accessories,Eastern Cape,Online,Sipho Nkosi,3,799.0,119.85,2277.15,470.0,1410.0,867.15
+ORD0039,2025-10-19,CUST027,P003,Laptop Stand,Accessories,Mpumalanga,Phone Order,Kabelo Dlamini,2,449.0,0.0,898.0,260.0,520.0,378.0
+ORD0302,2025-10-21,CUST004,P001,Wireless Mouse,Accessories,Mpumalanga,In-store,Mpho Ndlovu,2,299.0,29.9,568.1,170.0,340.0,228.1
+ORD0308,2025-10-21,CUST029,P007,Headphones,Electronics,Gauteng,Phone Order,Sipho Nkosi,1,899.0,89.9,809.1,560.0,560.0,249.1
+ORD0118,2025-10-22,CUST053,P007,Headphones,Electronics,KwaZulu-Natal,Phone Order,Thandi Mokoena,1,899.0,44.95,854.05,560.0,560.0,294.05
+ORD0253,2025-10-22,CUST029,P001,Wireless Mouse,Accessories,Western Cape,Phone Order,Kabelo Dlamini,5,299.0,0.0,1495.0,170.0,850.0,645.0
+ORD0408,2025-10-23,CUST058,P001,Wireless Mouse,Accessories,Mpumalanga,In-store,Thandi Mokoena,3,299.0,44.85,852.15,170.0,510.0,342.15
+ORD0088,2025-10-24,CUST025,P001,Wireless Mouse,Accessories,Western Cape,Phone Order,Sipho Nkosi,1,299.0,14.95,284.05,170.0,170.0,114.05
+ORD0058,2025-10-25,CUST028,P012,Laptop Backpack,Accessories,KwaZulu-Natal,Phone Order,Lerato Molefe,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0142,2025-10-26,CUST017,P002,USB-C Hub,Accessories,Mpumalanga,In-store,Mpho Ndlovu,1,649.0,0.0,649.0,390.0,390.0,259.0
+ORD0208,2025-10-26,CUST042,P008,Office Chair,Office Furniture,Mpumalanga,Phone Order,Mpho Ndlovu,4,2499.0,0.0,9996.0,1780.0,7120.0,2876.0
+ORD0309,2025-10-26,CUST004,P006,SSD 1TB,Electronics,Western Cape,In-store,Kabelo Dlamini,4,1599.0,0.0,6396.0,1120.0,4480.0,1916.0
+ORD0159,2025-10-28,CUST007,P010,Notebook Pack,Stationery,Western Cape,Phone Order,Mpho Ndlovu,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0387,2025-10-28,CUST012,P001,Wireless Mouse,Accessories,Mpumalanga,Phone Order,Lerato Molefe,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0194,2025-10-29,CUST048,P004,Keyboard,Accessories,KwaZulu-Natal,In-store,Lerato Molefe,1,399.0,39.9,359.1,225.0,225.0,134.1
+ORD0476,2025-10-29,CUST019,P010,Notebook Pack,Stationery,Limpopo,In-store,Aisha Jacobs,1,89.0,4.45,84.55,38.0,38.0,46.55
+ORD0082,2025-10-31,CUST009,P007,Headphones,Electronics,Western Cape,In-store,Thandi Mokoena,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0094,2025-10-31,CUST006,P003,Laptop Stand,Accessories,KwaZulu-Natal,Online,Sipho Nkosi,3,449.0,67.35,1279.65,260.0,780.0,499.65
+ORD0366,2025-11-01,CUST013,P001,Wireless Mouse,Accessories,Western Cape,Online,Sipho Nkosi,1,299.0,29.9,269.1,170.0,170.0,99.1
+ORD0227,2025-11-02,CUST046,P007,Headphones,Electronics,Limpopo,Online,Mpho Ndlovu,2,899.0,0.0,1798.0,560.0,1120.0,678.0
+ORD0278,2025-11-02,CUST050,P006,SSD 1TB,Electronics,Eastern Cape,Phone Order,Sipho Nkosi,5,1599.0,399.75,7595.25,1120.0,5600.0,1995.25
+ORD0478,2025-11-05,CUST041,P004,Keyboard,Accessories,Eastern Cape,In-store,Mpho Ndlovu,3,399.0,0.0,1197.0,225.0,675.0,522.0
+ORD0006,2025-11-06,CUST008,P003,Laptop Stand,Accessories,Western Cape,In-store,Kabelo Dlamini,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0259,2025-11-06,CUST056,P004,Keyboard,Accessories,Gauteng,In-store,Thandi Mokoena,4,399.0,0.0,1596.0,225.0,900.0,696.0
+ORD0156,2025-11-09,CUST059,P002,USB-C Hub,Accessories,Mpumalanga,Online,Aisha Jacobs,1,649.0,32.45,616.55,390.0,390.0,226.55
+ORD0205,2025-11-09,CUST027,P002,USB-C Hub,Accessories,KwaZulu-Natal,Phone Order,Kabelo Dlamini,1,649.0,0.0,649.0,390.0,390.0,259.0
+ORD0354,2025-11-11,CUST002,P012,Laptop Backpack,Accessories,Mpumalanga,Online,Mpho Ndlovu,1,799.0,39.95,759.05,470.0,470.0,289.05
+ORD0388,2025-11-11,CUST016,P007,Headphones,Electronics,KwaZulu-Natal,In-store,Sipho Nkosi,2,899.0,0.0,1798.0,560.0,1120.0,678.0
+ORD0486,2025-11-11,CUST042,P011,Printer Paper Box,Stationery,Limpopo,Phone Order,Mpho Ndlovu,2,599.0,0.0,1198.0,410.0,820.0,378.0
+ORD0052,2025-11-14,CUST011,P010,Notebook Pack,Stationery,Limpopo,Online,Thandi Mokoena,4,89.0,0.0,356.0,38.0,152.0,204.0
+ORD0042,2025-11-15,CUST014,P012,Laptop Backpack,Accessories,Eastern Cape,Online,Sipho Nkosi,5,799.0,0.0,3995.0,470.0,2350.0,1645.0
+ORD0364,2025-11-17,CUST009,P006,SSD 1TB,Electronics,KwaZulu-Natal,In-store,Mpho Ndlovu,2,1599.0,0.0,3198.0,1120.0,2240.0,958.0
+ORD0149,2025-11-18,CUST038,P008,Office Chair,Office Furniture,KwaZulu-Natal,Phone Order,Sipho Nkosi,1,2499.0,0.0,2499.0,1780.0,1780.0,719.0
+ORD0107,2025-11-19,CUST020,P009,Desk Lamp,Office Furniture,Gauteng,In-store,Thandi Mokoena,1,349.0,17.45,331.55,190.0,190.0,141.55
+ORD0456,2025-11-19,CUST059,P012,Laptop Backpack,Accessories,Gauteng,In-store,Thandi Mokoena,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0462,2025-11-19,CUST025,P012,Laptop Backpack,Accessories,Mpumalanga,Online,Mpho Ndlovu,2,799.0,0.0,1598.0,470.0,940.0,658.0
+ORD0404,2025-11-20,CUST041,P003,Laptop Stand,Accessories,Gauteng,Online,Kabelo Dlamini,1,449.0,0.0,449.0,260.0,260.0,189.0
+ORD0139,2025-11-21,CUST020,P009,Desk Lamp,Office Furniture,Gauteng,In-store,Lerato Molefe,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0155,2025-11-23,CUST002,P012,Laptop Backpack,Accessories,Eastern Cape,Phone Order,Lerato Molefe,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0001,2025-11-24,CUST009,P001,Wireless Mouse,Accessories,Mpumalanga,In-store,Aisha Jacobs,2,299.0,0.0,598.0,170.0,340.0,258.0
+ORD0241,2025-11-24,CUST041,P012,Laptop Backpack,Accessories,Western Cape,Online,Kabelo Dlamini,4,799.0,0.0,3196.0,470.0,1880.0,1316.0
+ORD0260,2025-11-25,CUST037,P010,Notebook Pack,Stationery,Western Cape,Phone Order,Aisha Jacobs,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0196,2025-11-27,CUST013,P010,Notebook Pack,Stationery,Limpopo,Phone Order,Sipho Nkosi,1,89.0,0.0,89.0,38.0,38.0,51.0
+ORD0201,2025-11-27,CUST033,P011,Printer Paper Box,Stationery,Western Cape,Online,Kabelo Dlamini,3,599.0,0.0,1797.0,410.0,1230.0,567.0
+ORD0375,2025-11-27,CUST051,P009,Desk Lamp,Office Furniture,Western Cape,In-store,Thandi Mokoena,1,349.0,17.45,331.55,190.0,190.0,141.55
+ORD0093,2025-11-30,CUST031,P003,Laptop Stand,Accessories,Western Cape,Online,Aisha Jacobs,3,449.0,0.0,1347.0,260.0,780.0,567.0
+ORD0173,2025-11-30,CUST028,P011,Printer Paper Box,Stationery,Western Cape,In-store,Mpho Ndlovu,2,599.0,119.8,1078.2,410.0,820.0,258.2
+ORD0031,2025-12-01,CUST022,P012,Laptop Backpack,Accessories,Gauteng,In-store,Sipho Nkosi,1,799.0,0.0,799.0,470.0,470.0,329.0
+ORD0197,2025-12-02,CUST030,P001,Wireless Mouse,Accessories,Eastern Cape,Phone Order,Mpho Ndlovu,4,299.0,0.0,1196.0,170.0,680.0,516.0
+ORD0036,2025-12-05,CUST004,P009,Desk Lamp,Office Furniture,Eastern Cape,Phone Order,Kabelo Dlamini,1,349.0,0.0,349.0,190.0,190.0,159.0
+ORD0045,2025-12-06,CUST057,P001,Wireless Mouse,Accessories,Gauteng,Phone Order,Kabelo Dlamini,3,299.0,0.0,897.0,170.0,510.0,387.0
+ORD0062,2025-12-06,CUST020,P010,Notebook Pack,Stationery,Mpumalanga,Online,Lerato Molefe,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0306,2025-12-07,CUST039,P010,Notebook Pack,Stationery,Gauteng,Phone Order,Mpho Ndlovu,3,89.0,13.35,253.65,38.0,114.0,139.65
+ORD0412,2025-12-07,CUST020,P011,Printer Paper Box,Stationery,Mpumalanga,Phone Order,Sipho Nkosi,1,599.0,0.0,599.0,410.0,410.0,189.0
+ORD0061,2025-12-10,CUST059,P002,USB-C Hub,Accessories,KwaZulu-Natal,Phone Order,Lerato Molefe,1,649.0,64.9,584.1,390.0,390.0,194.1
+ORD0210,2025-12-10,CUST059,P009,Desk Lamp,Office Furniture,Eastern Cape,In-store,Aisha Jacobs,4,349.0,209.4,1186.6,190.0,760.0,426.6
+ORD0211,2025-12-10,CUST012,P005,27-inch Monitor,Electronics,Limpopo,Online,Mpho Ndlovu,1,3299.0,0.0,3299.0,2450.0,2450.0,849.0
+ORD0386,2025-12-10,CUST039,P010,Notebook Pack,Stationery,Western Cape,Phone Order,Mpho Ndlovu,2,89.0,0.0,178.0,38.0,76.0,102.0
+ORD0329,2025-12-11,CUST052,P007,Headphones,Electronics,Eastern Cape,Phone Order,Aisha Jacobs,1,899.0,0.0,899.0,560.0,560.0,339.0
+ORD0153,2025-12-12,CUST024,P012,Laptop Backpack,Accessories,Gauteng,Online,Thandi Mokoena,5,799.0,199.75,3795.25,470.0,2350.0,1445.25
+ORD0352,2025-12-13,CUST009,P011,Printer Paper Box,Stationery,Mpumalanga,Phone Order,Thandi Mokoena,1,599.0,29.95,569.05,410.0,410.0,159.05
+ORD0217,2025-12-14,CUST019,P012,Laptop Backpack,Accessories,Western Cape,Phone Order,Kabelo Dlamini,5,799.0,0.0,3995.0,470.0,2350.0,1645.0
+ORD0242,2025-12-14,CUST044,P002,USB-C Hub,Accessories,Western Cape,In-store,Sipho Nkosi,1,649.0,64.9,584.1,390.0,390.0,194.1
+ORD0244,2025-12-14,CUST005,P005,27-inch Monitor,Electronics,Eastern Cape,In-store,Kabelo Dlamini,1,3299.0,0.0,3299.0,2450.0,2450.0,849.0
+ORD0198,2025-12-15,CUST040,P012,Laptop Backpack,Accessories,KwaZulu-Natal,Phone Order,Lerato Molefe,2,799.0,0.0,1598.0,470.0,940.0,658.0
+ORD0284,2025-12-15,CUST013,P008,Office Chair,Office Furniture,Limpopo,Online,Kabelo Dlamini,2,2499.0,0.0,4998.0,1780.0,3560.0,1438.0
+ORD0362,2025-12-17,CUST032,P004,Keyboard,Accessories,Limpopo,In-store,Sipho Nkosi,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0393,2025-12-17,CUST011,P006,SSD 1TB,Electronics,Gauteng,Phone Order,Thandi Mokoena,2,1599.0,0.0,3198.0,1120.0,2240.0,958.0
+ORD0098,2025-12-20,CUST002,P006,SSD 1TB,Electronics,Gauteng,Online,Sipho Nkosi,2,1599.0,0.0,3198.0,1120.0,2240.0,958.0
+ORD0421,2025-12-20,CUST014,P001,Wireless Mouse,Accessories,Eastern Cape,Phone Order,Kabelo Dlamini,3,299.0,89.7,807.3,170.0,510.0,297.3
+ORD0349,2025-12-21,CUST005,P011,Printer Paper Box,Stationery,Mpumalanga,Online,Kabelo Dlamini,1,599.0,0.0,599.0,410.0,410.0,189.0
+ORD0481,2025-12-21,CUST001,P001,Wireless Mouse,Accessories,Gauteng,Online,Mpho Ndlovu,1,299.0,0.0,299.0,170.0,170.0,129.0
+ORD0078,2025-12-23,CUST031,P001,Wireless Mouse,Accessories,Gauteng,Online,Lerato Molefe,3,299.0,0.0,897.0,170.0,510.0,387.0
+ORD0325,2025-12-23,CUST049,P004,Keyboard,Accessories,Eastern Cape,Online,Sipho Nkosi,1,399.0,0.0,399.0,225.0,225.0,174.0
+ORD0452,2025-12-23,CUST010,P007,Headphones,Electronics,Gauteng,Phone Order,Sipho Nkosi,1,899.0,89.9,809.1,560.0,560.0,249.1
+ORD0132,2025-12-24,CUST027,P003,Laptop Stand,Accessories,Gauteng,Online,Aisha Jacobs,1,449.0,44.9,404.1,260.0,260.0,144.1
+ORD0468,2025-12-24,CUST023,P004,Keyboard,Accessories,Eastern Cape,Phone Order,Sipho Nkosi,2,399.0,39.9,758.1,225.0,450.0,308.1
+ORD0250,2025-12-25,CUST008,P008,Office Chair,Office Furniture,Limpopo,In-store,Sipho Nkosi,3,2499.0,0.0,7497.0,1780.0,5340.0,2157.0
+ORD0312,2025-12-25,CUST005,P001,Wireless Mouse,Accessories,Western Cape,In-store,Lerato Molefe,5,299.0,149.5,1345.5,170.0,850.0,495.5
+ORD0010,2025-12-26,CUST011,P012,Laptop Backpack,Accessories,Eastern Cape,Phone Order,Sipho Nkosi,2,799.0,0.0,1598.0,470.0,940.0,658.0
+ORD0190,2025-12-27,CUST023,P003,Laptop Stand,Accessories,Gauteng,Online,Aisha Jacobs,2,449.0,44.9,853.1,260.0,520.0,333.1
+ORD0286,2025-12-27,CUST060,P006,SSD 1TB,Electronics,Mpumalanga,Online,Lerato Molefe,1,1599.0,0.0,1599.0,1120.0,1120.0,479.0
+ORD0224,2025-12-28,CUST002,P006,SSD 1TB,Electronics,KwaZulu-Natal,In-store,Sipho Nkosi,2,1599.0,319.8,2878.2,1120.0,2240.0,638.2
+ORD0060,2025-12-29,CUST044,P005,27-inch Monitor,Electronics,Mpumalanga,Phone Order,Aisha Jacobs,2,3299.0,329.9,6268.1,2450.0,4900.0,1368.1
+ORD0475,2025-12-29,CUST051,P012,Laptop Backpack,Accessories,KwaZulu-Natal,In-store,Aisha Jacobs,2,799.0,159.8,1438.2,470.0,940.0,498.2
+ORD0480,2025-12-29,CUST001,P009,Desk Lamp,Office Furniture,KwaZulu-Natal,In-store,Sipho Nkosi,2,349.0,0.0,698.0,190.0,380.0,318.0
+ORD0351,2025-12-31,CUST037,P010,Notebook Pack,Stationery,Limpopo,Phone Order,Mpho Ndlovu,4,89.0,0.0,356.0,38.0,152.0,204.0
+ORD0403,2025-12-31,CUST026,P004,Keyboard,Accessories,Western Cape,In-store,Kabelo Dlamini,1,399.0,39.9,359.1,225.0,225.0,134.1
